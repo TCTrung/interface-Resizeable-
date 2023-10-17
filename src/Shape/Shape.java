@@ -1,6 +1,8 @@
 package src.Shape;
 
-public abstract class Shape {
+import src.Resizeable.Resizeable;
+
+public abstract class Shape implements Resizeable {
     private String color = "green";
     private boolean filled = true;
 
